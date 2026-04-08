@@ -86,7 +86,7 @@ import os
 
 
 
-if os.environ.get("RENDER"):
+if os.environ.get("MYSQLHOST"):
     # 🌐 Production (Render + Aiven MySQL)
     DATABASES = {
         "default": {
